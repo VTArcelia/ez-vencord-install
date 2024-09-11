@@ -6,7 +6,7 @@ vencord installer with stereo and other stuff (from philhk)
 * If you have an outdated version of node.js, the script will not update it. If you run into issues, uninstall node.js and run the script again, it'll automatically install the latest version.
 
 # Instructions:
-1. either clone the repo (git clone https://github.com/BlueberryWolf/ez-vencord-install), or download and extract the files of the repo
+1. either clone the repo (git clone https://github.com/Blanc-dot/ez-vencord-install), or download and extract the files of the repo
 
 ### if cloned from repo (git clone):
 2. run updateandinstall.bat
@@ -26,6 +26,11 @@ The plugins I added are: MessageLoggerEnhanced, BetterMicrophone, BetterScreensh
 - MessageLogger Enhanced: https://github.com/Syncxv/vc-message-logger-enhanced
 - Gif Collections: https://github.com/Syncxv/vc-gif-collections
 - Timezones: https://github.com/Syncxv/vc-timezones
+
+- Equicord: https://github.com/Equicord
+- Third Party \ Unofficial Plugins channel in Vencord server: https://discord.com/channels/1015060230222131221/1256395889354997771 https://discord.com/channels/1015060230222131221/1032200195582197831
+- extra plugins from searching through github itself (will readd credits later since accidentally deleted old readme)
+
 
 #### Additional contributions
 - FakeDeafen: Made for this repository by [MisleadingName](https://github.com/misleadingname)
