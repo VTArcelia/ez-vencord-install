@@ -6,6 +6,8 @@ set scriptdir="%~dp0%~nx0"
 
 echo install script written by @blueberrywolfi on discord
 echo.
+echo Modified by @arcelia_x on discord
+echo.
 echo press any key to continue.
 pause >nul
 
@@ -84,7 +86,8 @@ if not '%errorlevel%' == '0' (
 	) else (
 		cd Vencord
 		echo updating local vencord repo
-		git pull
+	        git fetch --all
+        	git reset --hard origin/main
 	)
 
 	echo installing vencord dependencies...
@@ -95,6 +98,13 @@ if not '%errorlevel%' == '0' (
 	)
 	echo copying patches to src...
 	xcopy "%~dp0\patches\src" "%~dp0\Vencord\src" /E /H /C /I /Y
+	
+	echo Fix auto mute plugin
+	type "%~dp0\plugin-fix.txt" >> "%~dp0\Vencord\src\shared\debounce.ts"
+		) else (
+    	echo The 'net file' command did not execute successfully.
+	)
+
 
 	echo building vencord...
 	cmd /c pnpm build
