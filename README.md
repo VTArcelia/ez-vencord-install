@@ -8,6 +8,7 @@ vencord installer with stereo and other stuff (from philhk)
 # Instructions:
 1. either clone the repo (git clone https://github.com/Blanc-dot/ez-vencord-install), or download and extract the files of the repo
 
+RunOneTime.bat is ran a single time after git cloning to grab submodules, afterwards it is not needed to my knowledge.
 ### if cloned from repo (git clone):
 2. run updateandinstall.bat
 ### otherwise, or if you run into issues:
