@@ -1,0 +1,3 @@
+[submodule "patches/src/userplugins/vc-sidebarchat"]
+	path = patches/src/userplugins/vc-sidebarchat
+	url = https://github.com/Masterjoona/vc-sidebarchat
