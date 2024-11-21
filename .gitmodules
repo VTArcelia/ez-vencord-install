@@ -1,0 +1,30 @@
+[submodule "patches/src/userplugins/vc-sidebarchat"]
+	path = patches/src/userplugins/vc-sidebarchat
+	url = https://github.com/Masterjoona/vc-sidebarchat
+[submodule "patches/src/userplugins/bigFileUpload"]
+	path = patches/src/userplugins/bigFileUpload
+	url = https://github.com/ScattrdBlade/bigFileUpload
+[submodule "patches/src/userplugins/userflags"]
+	path = patches/src/userplugins/userflags
+	url = https://git.nin0.dev/userplugins/userflags
+[submodule "patches/src/userplugins/vc-fullUserInChatbox"]
+	path = patches/src/userplugins/vc-fullUserInChatbox
+	url = https://github.com/sadan4/vc-fullUserInChatbox
+[submodule "patches/src/userplugins/vc-followUser"]
+	path = patches/src/userplugins/vc-followUser
+	url = https://github.com/D3SOX/vc-followUser
+[submodule "patches/src/userplugins/vc-ctrlEnterSave"]
+	path = patches/src/userplugins/vc-ctrlEnterSave
+	url = https://github.com/sadan4/vc-ctrlEnterSave
+[submodule "patches/src/userplugins/vc-newPluginsManager"]
+	path = patches/src/userplugins/vc-newPluginsManager
+	url = https://github.com/Sqaaakoi/vc-newPluginsManager
+[submodule "patches/src/userplugins/vencord-perf"]
+	path = patches/src/userplugins/vencord-perf
+	url = https://github.com/voidfill/vencord-perf
+[submodule "patches/src/userplugins/vc-ignoreTerms"]
+	path = patches/src/userplugins/vc-ignoreTerms
+	url = https://github.com/D3SOX/vc-ignoreTerms
+[submodule "patches/src/userplugins/vc-junkCleanup"]
+	path = patches/src/userplugins/vc-junkCleanup
+	url = https://github.com/Sqaaakoi/vc-junkCleanup

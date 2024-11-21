@@ -59,6 +59,7 @@ if not exist "%~dp0\.git" (
     cmd /c git fetch origin main
     cmd /c git checkout -f -b main origin/main
     cmd /c git pull
+	cmd /c git submodule update --recursive --remote
     echo updated, press any key to install vencord
     pause >nul
     start cmd.exe /k install.bat
