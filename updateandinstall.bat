@@ -69,7 +69,6 @@ if not exist "%~dp0\.git" (
     cmd /c git pull
     echo Updating most third party plugins via submodule update
 	cmd /c git submodule update --recursive --remote
-    echo updated, press any key to install vencord
     echo . 
     echo . 
     echo . 
