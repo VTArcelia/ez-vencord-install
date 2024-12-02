@@ -65,8 +65,25 @@ if not exist "%~dp0\.git" (
     start cmd.exe /k install.bat
     exit
 ) else (
+    echo Running Git Pull
     cmd /c git pull
+    echo Updating most third party plugins via submodule update
+	cmd /c git submodule update --recursive --remote
     echo updated, press any key to install vencord
+    echo . 
+    echo . 
+    echo . 
+    echo .                                            NOTICE
+    echo .
+    echo .          This will no longer be maintained
+    echo .  
+    echo .                                            REASONS
+    echo . 
+    echo .       1. most third party plugins here auto update due to this script
+    echo .       2. I switched to a different install method for client mods
+    echo .       3. when I am not lazy I will make all plugins auto update via their respective repos
+    echo .
+    echo .       link to what I now use is here       https://shelter.uwu.network/install
     pause >nul
     start cmd.exe /k install.bat
     exit
