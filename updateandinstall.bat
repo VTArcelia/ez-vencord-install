@@ -84,6 +84,8 @@ if not exist "%~dp0\.git" (
     echo .       3. when I am not lazy I will make all plugins auto update via their respective repos
     echo .
     echo .       link to what I now use is here       https://shelter.uwu.network/install
+    echo .
+    echo Press any key to continue to Installer
     pause >nul
     start cmd.exe /k install.bat
     exit
