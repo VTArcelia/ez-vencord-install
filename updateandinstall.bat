@@ -67,7 +67,7 @@ if not exist "%~dp0\.git" (
 ) else (
     echo Running Git Pull
     cmd /c git pull
-    echo Updating most third party plugins via submodule update
+    echo Updating third party plugins via submodule update
 	cmd /c git submodule update --recursive --remote
     echo . 
     echo . 
