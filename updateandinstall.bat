@@ -74,12 +74,12 @@ if not exist "%~dp0\.git" (
     echo . 
     echo .                                            NOTICE
     echo .
-    echo .          This will no longer be maintained
+    echo .          This no longer needs to be maintained and most likely wont be
     echo .  
     echo .                                            REASONS
     echo . 
     echo .       1. all third party plugins here auto update due to this script
-    echo .       2. I switched to a different install method for client mods
+    echo .       2. I switched to a different install method for client mods being sheltupdate
     echo .        
     echo .
     echo .       link to what I now use is here       https://shelter.uwu.network/install
