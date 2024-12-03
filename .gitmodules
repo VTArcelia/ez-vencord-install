@@ -28,3 +28,6 @@
 [submodule "patches/src/userplugins/vc-junkCleanup"]
 	path = patches/src/userplugins/vc-junkCleanup
 	url = https://github.com/Sqaaakoi/vc-junkCleanup
+[submodule "patches/src/userplugins/Kyuuhachi"]
+	path = patches/src/userplugins/Kyuuhachi
+	url = https://github.com/Kyuuhachi/VencordPlugins
