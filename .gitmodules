@@ -31,6 +31,3 @@
 [submodule "patches/src/userplugins/Kyuuhachi"]
 	path = patches/src/userplugins/Kyuuhachi
 	url = https://github.com/Kyuuhachi/VencordPlugins
-[submodule "patches/src/userplugins/UserPFP"]
-	path = patches/src/userplugins/UserPFP
-	url = https://github.com/UserPFP/vencordplugin
