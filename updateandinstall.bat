@@ -78,9 +78,9 @@ if not exist "%~dp0\.git" (
     echo .  
     echo .                                            REASONS
     echo . 
-    echo .       1. most third party plugins here auto update due to this script
+    echo .       1. all third party plugins here auto update due to this script
     echo .       2. I switched to a different install method for client mods
-    echo .       3. when I am not lazy I will make all plugins auto update via their respective repos
+    echo .        
     echo .
     echo .       link to what I now use is here       https://shelter.uwu.network/install
     echo .
