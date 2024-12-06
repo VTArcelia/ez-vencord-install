@@ -1,5 +1,13 @@
 # ez-vencord-install
-vencord installer with stereo and other stuff (from philhk)
+vencord installer with auto updating third party plugins
+add your own plugins by doing the following"
+
+1. open your cloned ez-vencord-install folder in terminal
+2. git submodule add <repo_link> patches/src/userplugins/<customfoldername>
+
+Your plugins should auto update with the UpdateandInstall.bat, which you should realistically only run when the client uninjects or your third party plugins stop working.
+
+If I add a new third party plugin you need to run the "RunOneTime.bat" file to actually pull the files from their respective repos, it's also what you need to do for the first time you git clone.
 
 # Pre-requisites:
 * make sure to uninstall any discord client mods you previously have installed beforehand.
@@ -24,15 +32,5 @@ The plugins I added are: MessageLoggerEnhanced, BetterMicrophone, BetterScreensh
 
 ## Credits
 - Vencord: https://github.com/vendicated/vencord
-- Stereo/Screenshare: https://github.com/philhk/Vencord
-- MessageLogger Enhanced: https://github.com/Syncxv/vc-message-logger-enhanced
-- Gif Collections: https://github.com/Syncxv/vc-gif-collections
-- Timezones: https://github.com/Syncxv/vc-timezones
-
-- Equicord: https://github.com/Equicord
 - Third Party \ Unofficial Plugins channel in Vencord server: https://discord.com/channels/1015060230222131221/1256395889354997771 https://discord.com/channels/1015060230222131221/1032200195582197831
-- extra plugins from searching through github itself (will readd credits later since accidentally deleted old readme)
 
-
-#### Additional contributions
-- FakeDeafen: Made for this repository by [MisleadingName](https://github.com/misleadingname)

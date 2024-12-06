@@ -6,7 +6,7 @@ set scriptdir="%~dp0%~nx0"
 
 echo install script written by @blueberrywolfi on discord
 echo.
-echo Modified by @arcelia_x on discord
+echo Modified by @VTArcelia on discord
 echo.
 echo press any key to continue.
 pause >nul

@@ -3,7 +3,7 @@ set gitinstalled=no
 set chocoinstalled=no
 set scriptdir="%~dp0%~nx0"
 
-title vencord install script by @BlueberryWolfi
+title vencord install script by @BlueberryWolfi modified by @VTArcelia
 goto checkprivileges
 
 :UACEXIT
