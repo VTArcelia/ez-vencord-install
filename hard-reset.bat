@@ -2,7 +2,7 @@
 
 echo Reset script, resets Vencord, then resets all third party plugins to my repo
 echo.
-echo For fun by @arcelia_x on discord
+echo by @VTArcelia on discord
 echo.
 echo press any key to continue.
 pause >nul
