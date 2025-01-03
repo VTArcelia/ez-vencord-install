@@ -14,7 +14,7 @@ If I add a new third party plugin you need to run the "RunOneTime.bat" file to a
 * If you have an outdated version of node.js, the script will not update it. If you run into issues, uninstall node.js and run the script again, it'll automatically install the latest version.
 
 # Instructions:
-1. Clone the repo (git clone https://github.com/Blanc-dot/ez-vencord-install)
+1. Clone the repo (git clone https://github.com/VTArcelia/ez-vencord-install)
 
 RunOneTime.bat is ran a single time after git cloning to grab submodules, afterwards it is not needed unless i add more submodules, which you'll know from an error appearing on the installing part of vencord, you'll see red text. 
 
