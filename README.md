@@ -1,6 +1,6 @@
 # ez-vencord-install
 vencord installer with auto updating third party plugins
-add your own plugins by doing the following"
+add your own plugins by doing the following:
 
 1. open your cloned ez-vencord-install folder in terminal
 2. git submodule add <repo_link> patches/src/userplugins/<customfoldername>
