@@ -14,9 +14,9 @@ If I add a new third party plugin you need to run the "RunOneTime.bat" file to a
 * If you have an outdated version of node.js, the script will not update it. If you run into issues, uninstall node.js and run the script again, it'll automatically install the latest version.
 
 # Instructions:
-1. Clone the repo (git clone https://github.com/VTArcelia/ez-vencord-install)
+1a. Clone the repo (git clone https://github.com/VTArcelia/ez-vencord-install)
 
-RunOneTime.bat is ran a single time after git cloning to grab submodules, afterwards it is not needed unless i add more submodules, which you'll know from an error appearing on the installing part of vencord, you'll see red text. 
+1b. Double click on RunOneTime.bat this is so we can grab submodules thus making this repo maintainable just by the updateandinstall file.  
 
 ### if cloned from repo (git clone):
 2. run updateandinstall.bat
@@ -28,7 +28,8 @@ RunOneTime.bat is ran a single time after git cloning to grab submodules, afterw
 5. If your discord didn't automatically restart, fully close and re-open discord.
 6. In your discord user settings, you will find a bunch of plugins. Read through them and enable the ones you want, then restart discord afterwards.
 
-The plugins I added are: MessageLoggerEnhanced, BetterMicrophone, BetterScreenshare, Timezones, and Gif Collections
+### revert to git clone state
+running hard-reset.bat resets absolutely everything.
 
 ## Credits
 - Vencord: https://github.com/vendicated/vencord
