@@ -74,7 +74,7 @@ if not exist "%~dp0\.git" (
     echo . 
     echo .                                            NOTICE
     echo .
-    echo .          This no longer needs to be maintained and most likely wont be
+    echo .          This no longer needs to be maintained but I will fix problematic plugins by removing them
     echo .  
     echo .                                            REASONS
     echo . 
