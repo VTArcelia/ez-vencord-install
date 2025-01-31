@@ -18,8 +18,11 @@ if exist "Vencord\" (
 )
 
 cd ..
+echo Resetting base repository...
 git fetch --all
 git reset --hard origin/main
 
+echo Updating submodules...
+git submodule update --init --recursive
 
 exit /B 0
