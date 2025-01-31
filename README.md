@@ -1,35 +1,35 @@
 # ez-vencord-install
 vencord installer with auto updating third party plugins
-add your own plugins by doing the following:
-
-1. open your cloned ez-vencord-install folder in terminal
-2. git submodule add <repo_link> patches/src/userplugins/customfoldername
-
-Your plugins should auto update with the UpdateandInstall.bat, which you should realistically only run when the client uninjects or your third party plugins stop working.
-
-If I add a new third party plugin you need to run the "RunOneTime.bat" file to actually pull the files from their respective repos, it's also what you need to do for the first time you git clone.
 
 # Pre-requisites:
 * make sure to uninstall any discord client mods you previously have installed beforehand.
 * If you have an outdated version of node.js, the script will not update it. If you run into issues, uninstall node.js and run the script again, it'll automatically install the latest version.
 
 # Instructions:
-1a. Clone the repo (git clone https://github.com/VTArcelia/ez-vencord-install)
+1. Clone the repo (git clone https://github.com/VTArcelia/ez-vencord-install)
 
-1b. Double click on RunOneTime.bat this is so we can grab submodules thus making this repo maintainable just by the updateandinstall file.  
+2. From the same terminal enter the directory (cd ez-vencord-install)
+3. Finally grab submodules (git submodule update --init --recursive)
 
-### if cloned from repo (git clone):
-2. run updateandinstall.bat
-### otherwise, or if you run into issues:
-2. Run install.bat.
+### Installing the actual client
+4. run updateandinstall.bat this will update everything from submodules to vencord itself
 
-3. If the process is successful, it will ask you to install vencord.
-4. Use the arrow keys and enter to navigate. Select "Install Vencord," then choose your flavour of discord (typically stable)
-5. If your discord didn't automatically restart, fully close and re-open discord.
-6. In your discord user settings, you will find a bunch of plugins. Read through them and enable the ones you want, then restart discord afterwards.
+5. If the process is successful, it will ask you to install vencord.
+6. Use the arrow keys and enter to navigate. Select "Install Vencord," then choose your flavour of discord (typically stable)
+7. If your discord didn't automatically restart, fully close and re-open discord.
+8. In your discord user settings, you will find a bunch of plugins. Read through them and enable the ones you want, then restart discord afterwards.
 
-### revert to git clone state
-running hard-reset.bat resets absolutely everything.
+
+### add custom plugins (will add as a file later to further simplify)
+
+1. open your cloned ez-vencord-install folder in terminal
+2. git submodule add <repo_link> patches/src/userplugins/customfoldername
+
+Your plugins will now auto update with the UpdateandInstall.bat
+
+### revert to just before the actual client section (this file auto does 2 & 3 from instructions)
+run hard-reset.bat this should fix any errors you had with your client even after you installed custom plugins
+
 
 ## Credits
 - Vencord: https://github.com/vendicated/vencord
