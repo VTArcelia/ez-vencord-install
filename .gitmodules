@@ -16,9 +16,6 @@
 [submodule "patches/src/userplugins/vc-ctrlEnterSave"]
 	path = patches/src/userplugins/vc-ctrlEnterSave
 	url = https://github.com/sadan4/vc-ctrlEnterSave
-[submodule "patches/src/userplugins/vc-newPluginsManager"]
-	path = patches/src/userplugins/vc-newPluginsManager
-	url = https://github.com/Sqaaakoi/vc-newPluginsManager
 [submodule "patches/src/userplugins/vencord-perf"]
 	path = patches/src/userplugins/vencord-perf
 	url = https://github.com/voidfill/vencord-perf
@@ -31,3 +28,6 @@
 [submodule "patches/src/userplugins/Kyuuhachi"]
 	path = patches/src/userplugins/Kyuuhachi
 	url = https://github.com/Kyuuhachi/VencordPlugins
+[submodule "patches/src/userplugins/orbolay"]
+	path = patches/src/userplugins/orbolay
+	url = https://github.com/SpikeHD/vc-orbolay-bridge
