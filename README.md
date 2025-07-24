@@ -20,12 +20,14 @@ vencord installer with auto updating third party plugins
 8. In your discord user settings, you will find a bunch of plugins. Read through them and enable the ones you want, then restart discord afterwards.
 
 
-### add custom plugins (will add as a file later to further simplify)
+### Custom Plugins can be added, or removed with the following bat files
 
-1. open your cloned ez-vencord-install folder in terminal
-2. git submodule add <repo_link> patches/src/userplugins/customfoldername
+AddYourOwn.bat & RemoveAnyPlugin.bat
 
-Your plugins will now auto update with the UpdateandInstall.bat
+
+If you use AddYourOwn.bat your plugins will integrate with UpdateandInstall.bat, if you use RemoveAnyPlugin, they will be removed.
+
+
 
 ### revert to just before the actual client section (this file auto does 2 & 3 from instructions)
 run hard-reset.bat this should fix any errors you had with your client even after you installed custom plugins
